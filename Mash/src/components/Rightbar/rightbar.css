@@ -1,0 +1,70 @@
+.mainRight{
+    height: max-content;
+    position: sticky;
+    top: -18rem;
+    bottom: 0;
+    margin-right: 50px;
+    margin-top: 20px; 
+}
+.notifications{
+    height: 300px;
+    width: 250px;
+    border-radius: 30px;
+    background-color:#38A3A5;
+}
+
+.notificationsTop{
+    text-align: center;
+}
+
+.messages{
+    height: 500px;
+    width: 250px;
+    border-radius: 30px;
+    background-color:#57CC99;
+    margin-top: 40px;
+}
+
+.messageTop{
+    text-align: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.messageSearchBar{
+    display: flex;
+    background-color: white;
+    border-radius: 200px;
+    padding: 5px;
+    gap: .5rem;
+}
+
+.searchInput{
+    border: none;
+    font-size: .9rem;
+    width: 90%;
+}
+
+.searchInput:focus{
+    outline: none;
+}
+
+.messageCategory{
+    display: flex;
+    margin-bottom: 1rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.messageCategory h6{
+    font-weight: bold;
+    width: 100%;
+    font-size: .85rem;
+    padding-bottom: .5rem;
+    border-bottom: 4px solid;
+    text-align: center;
+}
+
+.messageCategory .active{
+    border-color: white;
+}

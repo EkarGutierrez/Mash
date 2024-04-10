@@ -1,0 +1,16 @@
+.feeds{
+    display: flex;
+    height: max-content;
+    position: sticky;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.feed{ 
+    background-color: #80ED99;
+    height: 835px;
+    width: 950px;
+    border-radius: 30px;
+    margin-top: 30px;
+    top: 10%; 
+}

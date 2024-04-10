@@ -1,0 +1,13 @@
+.leftbar{
+    position: sticky;
+    margin-left: 30px;
+    bottom: 0;
+    margin-top: 20px; 
+}
+
+.calendars{
+    height: 835px;
+    width: 350px;
+    border-radius: 30px;
+    background-color:#38A3A5;
+}
